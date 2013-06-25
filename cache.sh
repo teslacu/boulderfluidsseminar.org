@@ -13,5 +13,6 @@ do
   extension="${filename##*.}"
   filename="${filename%.*}"
   echo "Processing $filename file..."
-  curl localhost:4567/$filename > ./public/$filename.html
+  mkdir ./public/$filename
+  curl localhost:4567/$filename > ./public/$filename/index.html
 done
