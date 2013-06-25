@@ -2,7 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Boulder Fluid Dynamics Seminar Series</title>
+    <% if @eventname %>
+      <title>Boulder Fluid Dynamics Seminar Series - <%= @eventname %></title>
+    <% else %>
+      <title>Boulder Fluid Dynamics Seminar Series</title>
+    <% end %>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
