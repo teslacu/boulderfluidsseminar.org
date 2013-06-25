@@ -1,0 +1,46 @@
+<h1>TESLA Team @ CU</h1>
+
+<div class="media">
+  <a class="pull-left" href="/team/peter-hamlington">
+    <img class="media-object" data-src="holder.js/160x160">
+  </a>
+  <div class="media-body">
+    <h3 class="media-heading"><a href="/team/Peter-Hamlington">Peter Hamlington</a></h3>
+    <h4>Assistant Professor / Fearless Leader</h4>
+    <p>This is a short bio</p>
+
+  </div>
+</div>
+
+<div class="media">
+  <a class="pull-left" href="/team/Prateek-Shrestha">
+    <img class="media-object" data-src="holder.js/160x160">
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="/team/Prateek-Shresth">Prateek Shrestha</a></h4>
+    <p>This is a short bio</p>
+    </h4>
+  </div>
+</div>
+
+<div class="media">
+  <a class="pull-left" href="/team/Ryan-King">
+    <img class="media-object" data-src="holder.js/160x160">
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="/team/Ryan-King">Ryan King</a></h4>
+    <p>This is a short bio</p>
+    </h4>
+  </div>
+</div>
+
+<div class="media">
+  <a class="pull-left" href="/team/Spencer-Alexander">
+    <img class="media-object" data-src="holder.js/160x160">
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="/team/Spencer-Alexander">Spencer Alexander</a></h4>
+    <p>This is a short bio</p>
+    </h4>
+  </div>
+</div>

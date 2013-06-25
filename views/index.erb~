@@ -1,0 +1,98 @@
+      <div id="myCarousel" class="carousel slide">
+      <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="./img/slide-01.jpg" alt="">
+            <div class="carousel-caption">
+              <h3>Example headline.</h3>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <a class="btn" href="#">Learn more</a>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./img/slide-02.jpg" alt="">
+            <div class="carousel-caption">
+              <h3>Another example headline.</h3>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <a class="btn" href="#">Learn more</a>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./img/slide-03.jpg" alt="">
+            <div class="carousel-caption">
+              <h3>One more for good measure.</h3>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <a class="btn" href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+      </div><!-- /.carousel -->
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4 text-center">
+          <ul class="thumbnails">
+            <li class="span4">
+              <a href="/team" class="thumbnail">
+                <img data-src="holder.js/360x270" alt="">
+              </a>
+            </li>
+          </ul>
+          <h2>Our Team</h2>
+          <p>Our team is a quickly growing team, as you can see from our group picture. In order from left to right: Capitan Planet, Fire, Wind, Water, more Fire, and Thor. Actively seeking Earth and Heart.</p>
+
+          <p><a class="btn" href="/team">Learn more &raquo;</a></p>
+        </div>
+        <div class="span4 text-center">
+          <ul class="thumbnails">
+            <li class="span2">
+              <a href="/projects/ocean-energy" class="thumbnail">
+                <img src="/images/project-ocean-turbine.png" alt="">
+              </a>
+            </li>
+            <li class="span2">
+              <a href="#" class="thumbnail">
+                <img data-src="holder.js/160x120" alt="">
+              </a>
+            </li>
+            <li class="span2">
+              <a href="#" class="thumbnail">
+                <img data-src="holder.js/160x120" alt="">
+              </a>
+            </li>
+            <li class="span2">
+              <a href="#" class="thumbnail">
+                <img data-src="holder.js/160x120" alt="">
+              </a>
+            </li>
+          </ul>
+          <h2>Our Projects</h2>
+          <p> As our title suggests, we like turbulence. We like energy systems. We like lamp.</p>
+          <p>Click on our projects below for more information, or for a general overview, see our projects page.</p>
+          <p><a class="btn" href="/projects">View details &raquo;</a></p>
+       </div>
+        <div class="span4 text-center">
+          <ul class="thumbnails">
+            <li class="span4">
+              <a href="https://maps.google.com/maps?q=40.007669,-105.263684&num=1&t=m&z=18" class="thumbnail">
+                <img src="/images/location.png" alt="">
+              </a>
+            </li>
+          </ul>
+          <h2>Location</h2>
+          <address>
+            <strong>TESLA@CU</strong><br>
+            215A UCB 439<br>
+            Boulder, CO 88888<br>
+          </address>
+        </div>
+      </div>
+
+      <hr>
+
