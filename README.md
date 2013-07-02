@@ -15,6 +15,8 @@ The entire dynamic code base, along with a git synced submodule for the static s
 Development
 ------------------------
 
+Before working on any changes, make sure you have the latest version of the code by running `git pull`. This will check with github and supply you with updates to the code base.
+
 To see the site as you develop, you'll want to start sinatra by running `ruby main.rb` from the main site directory. The application depends on both sinatra and redcarpet, which can be installed by running:
 
 `sudo gem install sinatra redcarpet`
