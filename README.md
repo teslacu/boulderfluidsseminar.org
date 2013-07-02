@@ -1,4 +1,4 @@
-boulderfluidsseminar.org
+BoulderFluidsSeminar.org
 ========================
 
 The Boulder Fluids Seminar website is a two piece codset with a deploy script to transition between the two. On the dynamic side, a sinatra application (main.rb) handles the templating and serving. This is then cached into a static site, which is served via github pages.
