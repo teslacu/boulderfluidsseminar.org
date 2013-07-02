@@ -2,7 +2,7 @@
 require 'sinatra'
 
 get '/' do
-  erb :'events/june-25-2013', :layout => :master
+  erb :'events/july-9-2013', :layout => :master
 end
 
 get '/:event' do
