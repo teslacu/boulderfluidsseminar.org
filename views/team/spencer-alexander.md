@@ -1,3 +1,0 @@
-# Spencer Alexander
-
-Stuff here
