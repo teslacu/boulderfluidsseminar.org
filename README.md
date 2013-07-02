@@ -23,7 +23,7 @@ To see the site as you develop, you'll want to start sinatra by running `ruby ma
 
 (assuming you have ruby and rubygems set up properly... should be installed by default on a mac)
 
-You can now edit files in the `views` and public folders.
+You can now edit files in the `views` and `public` folders.
 
 Deployment
 ------------------------
