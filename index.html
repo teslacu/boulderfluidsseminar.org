@@ -1,26 +1,43 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    
-      <title>Boulder Fluid Dynamics Seminar Series</title>
-    
+    <title>Home - TESLa</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Le styles -->
+    <link href="/css/header.css" rel="stylesheet">
     <link href="/css/bootstrap.css" rel="stylesheet">
-    <style type="text/css">
-      a {
-        color: #c7801f;
-      }
-
-      h1,h2,h3,h4 {
-        color: #1e497d;
-      }
-    </style>
     <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+      }
+      .carousel h3 { color:white;}
+      .simple-links a:link, .simple-links a:visited, .simple-links a:active {
+        text-decoration: none;
+        color: black;
+      }
+      .simple-links a:hover {
+        text-decoration: none;
+      }
+      .navbar-inner {
+        background-color: #000;
+        background-image: none;
+        background-repeat: no-repeat;
+        filter: none;
+      }
+#search input[type="text"] {
+  border:none;  
+  background-color:#FFF;
+  color:#333;
+  width:170px;
+padding:0; margin:0;
+}
+    </style>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -28,99 +45,180 @@
     <![endif]-->
 
     <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".person-sidebar" data-offset="60">
 
-    <!--<div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="brand" href="/">Boulder Fluid Dynamics Seminar Series</a>
-        </div>
-      </div>
-    </div>-->
-
+  <div class="jumbotron masthead" style="background-color:black;">
     <div class="container">
-
-      <h1 class="text-center" style="border-bottom: 2px solid #c7801f; padding-bottom:0.5em; margin-bottom: 0.5em;"><a href="/" style="color: #1e497d;">Boulder Fluid Dynamics Seminar Series</a></h1>
-      <div class="row-fluid">
-        <div class="span8">
-                    <h2>Tuesday, July 9, 2013</h2>
-          <p><a href="/attachments/BoulderFluidsSeminar_July9_2013.pdf"><i class="icon-download"></i> download announcement</a></p>
-          <p> 3:30pm-4:30pm (refreshments at 3:15pm) <br />
-          Bechtel Collaboratory in the Discovery Learning Center (DLC) <br />
-          University of Colorado at Boulder</p>
-          <a href="http://boulderfluidsseminar.org" title="Add to Calendar" class="addthisevent">
-            Add to Calendar
-            <span class="_start">07/09/2013 3:30:00 PM</span>
-            <span class="_end">07/09/2013 4:30:00 PM</span>
-            <span class="_zonecode">9</span>
-            <span class="_summary">Boulder Fluid Dynamics Seminar Series</span>
-            <span class="_location">Discovery Learning Center, University of Colorado, Boulder</span>
-            <span class="_date_format">MM/DD/YYYY</span>
-          </a>
-
-
-          <div class="page-header"></div>
-
-          <h2 style="color: #1e497d;">Wave Energy in the United States and Numerical Modeling of Wave Energy Conversion Devices</h2>
-          <h3><a href="#">Michael Lawson</a> <small>Wind and Water Power Program, National Renewable Energy Laboratory</small></h3>
-
-          <p><a href="/attachments/july-9-2013/lawson2013.pdf"><button class="btn btn-success">Download Presentation (pdf)</button></a></p>
-
-          <p>Recent resource assessment studies indicate that the technically recoverable US wave energy resource is 1400 TW-hr/year, which equals approximately 35% of 2011 US electricity generation. This finding has renewed commercial and governmental interest in WEC technologies and indicates that wave energy could play a significant role in the US renewable energy portfolio in the years to come. Nevertheless, despite decades of research and development, wave energy converters (WECs) are not yet a commercially viable renewable energy generation technology.</p>
-          <p>In this talk I will first review the current generation of WEC technologies and will describe the challenges that need to be overcome for WECs to achieve commercial viability. Next, I will describe NREL's ongoing efforts to develop numerical modeling tools to assist in the wave energy converter design process. Specifically, I will discuss our efforts to develop a reduced-order design optimization tool that models WEC devices by coupling time-domain multi-body dynamics simulations with potential flow hydrodynamics models. Finally, I will discuss NREL’s plans to use smooth particle hydrodynamics (SPH) simulation methods to enable high fidelity predictions of wave slamming and overtopping loads from large waves during ocean storms.</p>
-
-          <div class="page-header"></div>
-          
-          <h2 style="color: #1e497d;">Planetary Fluid Mechanics in the Lab</h2>
-          <h3><a href="http://www.danzimmerman.com/">Dan Zimmerman</a> <small>Nonlinear Dynamics Lab, University of Maryland, College Park</small></h3>
-          <p><a href="/attachments/july-9-2013/zimmerman2013.pdf"><button class="btn btn-success">Download Presentation (pdf)</button></a> or <a href="http://sodium.umd.edu/axltalks/Boulder2013.html#/">view the slides at sodium.umd.edu</a></p>
-          
-          <p>To understand the origin and dynamics of planetary magnetic fields, we need to understand the turbulent flow of the huge oceans of rotating, magnetized, low viscosity liquid metal that make up planets’ cores. The extreme Reynolds number, rapid rotation, and strong magnetic fields make planetary core turbulence impossible to fully understand with direct numerical simulation or laboratory experiments. We have constructed an enormous experimental magnetohydrodynamic flow facility at the University of Maryland to push further toward planetary parameters than ever before. I will present new results regarding turbulent state transitions, angular momentum transport, internal magnetic induction, and the effects of strong externally applied magnetic field in the turbulent flow of 13 tons of liquid sodium metal in a three meter diameter, rapidly rotating spherical Couette apparatus. We hope that these and future results can join the next generation of planetary core simulations to deepen our understanding of the fluid flow and magnetic field generation processes in planets.</p>
-
-
-         </div> 
-        <div class="span4">
-          <div class="well">
-            <h2>When</h2>
-            <ul>
-              <li><a href="/june-25-2013">June 25 @ 3:30pm</a></li>
-              <li><a href="/july-9-2013">July 9 @ 3:30pm</a></li>
-              <li>July 23</li>
-              <li><a href="/august-6-2013">August 6 @ 3:3pm</a></li>
-              <li><a href="/august-20-2013">August 20 @ 3:30pm</a></li>
-              <li>September 3</li>
-              <li>...</li>
-            </ul>
-
+      <img style="float:left;" src="/images/logoblack.png" />
+      <div id="search-outer" class="culogo visible-desktop">
+        <div id="search">
+          <div id="culinks"><strong>CU:</strong> <a href="http://www.colorado.edu/">Home</a> &bull; <a href="http://www.colorado.edu/">A to Z</a> &bull; <a href="http://www.colorado.edu/">Campus Map</a></div>
+          <div id="searchform">
+            <form action="http://www.colorado.edu/search/custom/searchdirect.cgi" method="post">
+                <input type="hidden" name="searchtype" value="SITE_URL" />
+                <div id="inputwrapper">
+                    <input type="text" class="text" name="searchstring" value="Search this Site" onfocus="this.value='';"/>
+                </div>
+                <input type="image" src="/images/submit.png" value="Submit" size="22,23" border="0" /> 
+              </form>
           </div>
-
-          <div class="well">
-            <h2>Get Notified</h2>
-            If you'd like email notifications regarding new events and updates, send an email to <a href="mailto:peh@colorado.edu">Peter Hamlington</a> and let him know that you're interested.
-          </div>
-          <div class="well">
-            <h2>Where</h2>
-            <p> The seminar is held at the Discovery Learning Center (DLC) at the University of Colorado. Parking is free with a permit, which is provided at the seminar. The location for parking is shown in the map below.</p>
-          <a href="https://www.google.com/maps/ms?msid=208319865913079668653.0004dfe8ac5d6ad131f09&msa=0&ll=40.007453,-105.260707&spn=0.00174,0.003954">Larger Map</a></p>
-            <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/ms?msa=0&amp;msid=208319865913079668653.0004dfe8ac5d6ad131f09&amp;ie=UTF8&amp;t=m&amp;ll=40.007502,-105.261424&amp;spn=0.00021,0.000703&amp;output=embed"></iframe>
-          </div>
-
         </div>
       </div>
+</div>
+</div>
+          <div class="container" style="padding-top:0.5em;">
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+              <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div class="nav-collapse collapse">
+                <ul class="nav">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/about">About</a></li>
+                  <li><a href="/team">Team</a></li>
+                  <li><a href="/projects">Projects</a></li>
+                  <li><a href="/publications">Publications</a></li>
+                  <li><a href="/seminars">Seminars</a></li>
+                  <li><a href="/contact">Contact</a></li>
+                </ul>
+              </div><!--/.nav-collapse -->
+          </div>
+</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+
+            <div id="myCarousel" class="carousel slide">
+      <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="./images/slides/Flatirons_Winter.jpg" alt="">
+            <div class="carousel-caption" style="padding-top:0px">
+              <h3><a href="/about" style="color:white;">Turbulence and Energy Systems Laboratory (TESLa)</a></h3>
+              <p>The Turbulence and Energy Systems Laboratory (TESLa) at the University of Colorado, Boulder studies turbulence, combustion, renewable energy systems, and geophysical flows.</p> 
+            </div>
+          </div>
+          <div class="item">
+            <img src="./images/slides/airplane.jpg" alt="">
+            <div class="carousel-caption" style="padding-top:0px">
+              <h3><a href="/projects/turbulence" style="color:white;">Turbulence Physics and Modeling</a></h3>
+              <p>At TESLa, we specialize in numerical simulations of turbulent flow problems found in both engineering and nature, with an emphasis on modeling and understanding flow physics.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./images/slides/flame.jpg" alt="">
+            <div class="carousel-caption" style="padding-top:0px">
+              <h3><a href="/projects/combustion" style="color:white;">Turbulent Combustion and Reacting Flows</a></h3>
+              <p>We perform both fundamental and applied studies of turbulent combustion and reacting flows, with a focus on turbulence-flame interactions and propulsion systems.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./images/slides/turbines.jpg" alt="">
+            <div class="carousel-caption" style="padding-top:0px">
+              <h3><a href="/projects/renewable-energy" style="color:white;">Renewable Energy Systems</a></h3>
+              <p>We study various aspects of wind and ocean renewable energy systems through the use of physically-realistic numerical simulations.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="./images/slides/langmuir.jpg" alt="">
+            <div class="carousel-caption" style="padding-top:0px">
+              <h3><a href="/projects/geophysical-flows" style="color:white;">Geophysical Turbulent Flows</a></h3>
+              <p>Small-scale processes in the ocean are examined to better understand climate and weather modeling, as well as biogeochemical processes in the earth system.</p>
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+      </div><!-- /.carousel -->
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span4 text-center">
+          <ul class="thumbnails">
+            <li class="span4">
+              <a href="/team" class="thumbnail">
+                <img src="/images/engcenter.png" alt="">
+              </a>
+            </li>
+          </ul>
+          <h2>Our Team</h2>
+          <p>The Turbulence and Energy Systems Laboratory (TESLa) is located at the <a href="http://www.colorado.edu/">University of Colorado, Boulder</a> and is led by Professor Peter Hamlington in the <a href="http://www.me.colorado.edu/">Department of Mechanical Engineering</a>. The TESLa team currently consists of a number of graduate student researchers and collaborators within Boulder and beyond. </p>
+          <p><a class="btn" href="/team">See our team &raquo;</a></p>
+        </div>
+        <div class="span4 text-center">
+          <ul class="thumbnails">
+            <li class="span2">
+              <a href="/projects/turbulence" class="thumbnail">
+                <img src="/images/k256.png" alt="">
+              </a>
+            </li>
+            <li class="span2">
+              <a href="/projects/combustion" class="thumbnail">
+                <img src="/images/vel.png" alt="">
+              </a>
+            </li>
+            <li class="span2">
+              <a href="/projects/renewable-energy" class="thumbnail">
+                <img src="/images/project-ocean-turbine.png" alt="">
+              </a>
+            </li>
+            <li class="span2">
+              <a href="/projects/geophysical-flows" class="thumbnail">
+                <img src="/images/ocean.png" alt="">
+              </a>
+            </li>
+          </ul>
+          <h2>Our Projects</h2>
+          <p> At TESLa we use numerical simulations to study turbulent flows found in a variety of different engineering and natural applications. Click on the thumbnails above for more information on specific projects, or for a general overview of the work we do see our projects page.</p>
+          <p><a class="btn" href="/projects">Project details &raquo;</a></p>
+       </div>
+        <div class="span4 text-center">
+          <ul class="thumbnails">
+            <li class="span4">
+              <a href="https://maps.google.com/maps?q=40.007669,-105.263684&num=1&t=m&z=18" class="thumbnail">
+                <img src="/images/location.png" alt="">
+              </a>
+            </li>
+          </ul>
+          <h2>Location</h2>
+          <p>TESLa is located in the Mechanical Engineering wing of the Engineering Center at the University of Colorado, Boulder. Peter Hamlington can be found in ECME 222 and student offices are in ECME 215A.</p>
+          <address>      
+            University of Colorado, Boulder<br>
+            427 UCB <br>
+            Boulder, CO 80309-0427
+          </address>
+          <p><a class="btn" href="/contact">Contact us &raquo;</a></p>
+        </div>
+      </div>
+      
+
 
       <hr>
+
+      <footer>
+    <div id="cu-footer" class="text-center">
+      <p><strong><a href="http://www.colorado.edu/">University of Colorado Boulder</a></strong><br />
+      &copy; Regents of the University of Colorado</p>
+    
+      <p>
+      <a href="/contact">Contact us</a> &bull; <a href="http://www.colorado.edu/about/legal.html">Legal &amp; Trademarks</a> &bull; <a href="http://www.colorado.edu/privacy">Privacy</a>
+      </p>
+    </div>
+      </footer>
 
     </div> <!-- /container -->
 
@@ -142,17 +240,15 @@
     <script src="/js/bootstrap-typeahead.js"></script>
     <script src="/js/bootstrap.js"></script>
     <script src="/js/holder/holder.js"></script>
-    <!-- AddThisEvent -->
-    <script type="text/javascript" src="http://js.addthisevent.com/atemay.js"></script>
+
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-41942292-1', 'boulderfluidsseminar.org');
-      ga('send', 'pageview');
-
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+          $('a.tooltipped').tooltip({placement: 'bottom'})
+        })
+      }(window.jQuery)
     </script>
 
   </body>
