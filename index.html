@@ -55,39 +55,74 @@
       <h1 class="text-center" style="border-bottom: 2px solid #c7801f; padding-bottom:0.5em; margin-bottom: 0.5em;"><a href="/" style="color: #1e497d;">Boulder Fluid Dynamics Seminar Series</a></h1>
       <div class="row-fluid">
         <div class="span8">
-                    <h2>Tuesday, October 29, 2013</h2>
-          <p><a href="/attachments/BoulderFluidsSeminar_October29_2013.pdf"><i class="icon-download"></i> download announcement</a></p>
-          <p> 3:30pm-4:30pm (refreshments at 3:15pm) <br />
-          Bechtel Collaboratory in the Discovery Learning Center (DLC) <br />
-          University of Colorado at Boulder</p>
-          <a href="http://boulderfluidsseminar.org" title="Add to Calendar" class="addthisevent">
+                  <h2>Tuesday, February 4, 2014</h2>
+        <p><a href="/attachments/BoulderFluidsSeminar_February4_2014.pdf"><i class="icon-download"></i> download announcement</a></p> 
+        <p> 3:30pm-4:30pm (refreshments at 3:15pm) <br />
+        Bechtel Collaboratory in the Discovery Learning Center (DLC) <br />
+        University of Colorado at Boulder</p>
+		<a href="http://boulderfluidsseminar.org" title="Add to Calendar" class="addthisevent">
             Add to Calendar
-            <span class="_start">10/29/2013 3:30:00 PM</span>
-            <span class="_end">10/29/2013 4:30:00 PM</span>
+            <span class="_start">02/04/2014 3:30:00 PM</span>
+            <span class="_end">02/04/2014 4:30:00 PM</span>
             <span class="_zonecode">9</span>
             <span class="_summary">Boulder Fluid Dynamics Seminar Series</span>
             <span class="_location">Discovery Learning Center, University of Colorado, Boulder</span>
-            <span class="_date_format">MM/DD/YYYY</span>
-          </a>
+			<span class="_date_format">MM/DD/YYYY</span>
+		</a>
 
-          <div class="page-header"></div>
-          <h2 style="color: #1e497d;">Oh, the places your laser beam will go - Optical sensing in harsh, practical environments</h2>
-          <h3><a href="http://www.colorado.edu/MCEN/people/faculty/rieker.html">Greg Rieker</a> <small>University of Colorado, Boulder</small></h3>
-          <p>Lasers provide the capability to non-intrusively probe environments that would be otherwise inaccessible to traditional sensors.  I will describe the basics of laser absorption spectroscopy to measure physical properties of gas phase systems, and show two examples of my work with laser sensing in practical environments: </p>
-          <p>1) Measurements of temperature and water vapor concentration in a full-scale ground test scramjet combustor at the air force research laboratory and basic comparisons with CFD.</p>
-<p>2) Measurements of time-resolved greenhouse gas concentrations over a 2 km open path in the atmosphere above Boulder.</p>
-<p>My goal is to demonstrate what these techniques can and cannot do, in hopes of generating conversation between experimentalists and computationalists around measurement and analysis of fluids problems.</p>
+		<div class="page-header"></div>
+        <h2 style="color: #1e497d;">Hybrid CFD/DSMC and Big Science (Subtitle: Chemists Don't Know Much about Fluids) </h2> 
+		<h3><a href="http://spot.colorado.edu/~daily/">John Daily and Qi Guan</a> <small>University of Colorado, Boulder</small></h3>
+<!--	<p><a href="/attachments/february-4-2014/daily2014.pdf"><button class="btn btn-success">Download Presentation (pdf)</button></a></p> --!>
+		<p>We collaborate with a bunch of chemists to study pyrolysis reactions of large oxygenated biomolecules of importance in biomass gasification chemistry. The experiments are carried out in small tubular reactors and the products analyzed using Photoionization Mass Spectrometry (PIMS) and Matrix Isolation/IR spectroscopy. For many of the PIMS experiments, we utilize photons from the Lawrence Berkeley National Laboratory Advanced Light Source, hence Big Science. To recover kinetic information from the data requires knowing the residence time distributions and temperature time histories for the reactants. As a result, we have to rely on flow simulations. Because of the small diameters, 0.5 to 1 mm, it is extremely difficult to make measurements of flow field properties other than mass flow rate (controlled), inlet and outlet pressures and wall temperature. The complicating factor is that the diagnostics require high vacuum, and thus the reactor flow exits into a chamber at about 10-4 torr. Depending on the boundary conditions the flow in the reactor can range from mostly continuum to transitional, with the exhaust forming either a supersonic jet that rapidly transitions to free molecular flow or an effusive flow. For most of the data taken to date the downstream portion of the reactor seems to display slip at the walls even at the highest mass flow rate we can run. Therefore, we have been working on developing a coupled CFD/DSMC code. The CFD code is a 2D multi-block structured finite volume code for compressible flow with Roe flux scheme and LU-SGS time marching method. The DSMC code is based on the methods of Bird with 2D multi-block data structure and VHS collision model. The hybrid codes are coupled using a state-based method. In the seminar we will give an overview of the biomass project and present some simulation results.</p>
           
-          <div class="page-header"></div>
-          <h2 style="color: #1e497d;">Asymptotically Reduced Models for Rapidly Rotating Convection in Planets and Stars</h2>
-          <h3><a href="http://spot.colorado.edu/~mica5951/">Michael Calkins</a> <small>University of Colorado, Boulder</small></h3>
-          <p>Buoyancy-driven flows are one of the most common sources of turbulence and magnetic field generation in planets and stars. Understanding these systems remains difficult, however, due to the vast range of spatial and temporal scales that characterize them.  Numerical simulations of the full governing equations is of limited utility given the inability to access realistic parameter values (e.g. the Reynolds number) and flow regimes.  An alternative modelling effort that helps to overcome these limitations is to develop simplified, or reduced, equation sets that focus only on the dynamical scales of interests.  Development of reduced equations relies on the mathematical tools provided by multiscale asymptotics, whereby a small (or large) parameter that characterizes the dynamical processes of interest is identified, and the unknown quantities are expanded in a perturbation series about a basic state.  In the case of the rotating convection, this basic state is a balance between the pressure and Coriolis forces in the governing equations, well-known as the geostrophic balance.  I will discuss how we are using numerical simulations of the new quasi-geostrophic models for understanding convection in planetary atmospheres, oceans, liquid cores, and the convecting regions of stars. </p>
+		<div class="page-header"></div>
+    	<h2 style="color: #1e497d;">Computational modeling of dilute biomass slurries</h2>
+		<h3><a href="https://www.nrel.gov/energysciences/csc/staff/michael_sprague">Michael Sprague</a> <small>National Renewable Energy Laboratory</small></h3>
+<!--	<p><a href="/attachments/february-4-2014/sprague2014.pdf"><button class="btn btn-success">Download Presentation (pdf)</button></a></p> --!>
+		<p>The biochemical conversion of lignocellulosic biomass to liquid transportation fuels involves a multitude of physical and chemical transformations that occur in several distinct processing steps (e.g., pretreatment, enzymatic hydrolysis, and fermentation).  In this work we focus on development of a computational fluid dynamics model of a dilute biomass slurry, which is a highly viscous particle-laden fluid that can exhibit yield-stress behavior.  Here, we model the biomass slurry as a generalized Newtonian fluid that accommodates biomass transport due to settling and biomass-concentration-dependent viscosity.  Within a typical mixing vessel, viscosity can vary over several orders of magnitude.  We solve the model with the Nek5000 spectral-finite-element solver in a simple vane mixer, and validate against experimental results.  This work is directed towards our goal of a fully coupled computational model of fluid dynamics and reaction kinetics for the enzymatic hydrolysis of lignocellulosic biomass.</p>
+
 
          </div> 
         <div class="span4">
           <div class="well">
             <h2>Schedule</h2>
-            <ul>
+            <div class="bs-example">
+    <div id="myAccordion" class="accordion">    
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a href="#collapseTwo" data-parent="#myAccordion" data-toggle="collapse" class="accordion-toggle">2014 Schedule</a>
+            </div>
+            <div class="accordion-body collapse in" id="collapseTwo">
+                <div class="accordion-inner">
+                   <ul>     
+              <li><a href="/january-21-2014">January 21 @ 3:30pm</a></li>
+              <small>Oleg Vasilyev and Benjamin Hamlington</small>
+              <li><a href="/february-4-2014">February 4 @ 3:30pm</a></li>
+              <small>John Daily and Michael Sprague</small>
+              <li><a href="/february-18-2014">February 18 @ 3:30pm</a></li>
+              <small>Matt Churchfield and Dave Kassoy</small>
+              <li><a href="/march-4-2014">March 4 @ 3:30pm</a></li>
+              <small>Hezi Gildor and John Mersch</small>
+              <li><a href="/march-18-2014">March 18 @ 3:30pm</a></li>
+              <small>Michel Rasquin and Annick Pouquet</small>
+              <li><a href="/april-1-2014">April 1 @ 3:30pm</a></li>
+              <small>Joe Werne</small>
+              <li><a href="/april-15-2014">April 15 @ 3:30pm</a></li>
+              <small>Andy Moore</small>
+              <li><a href="/april-29-2014">April 29 @ 3:30pm</a></li>
+              <small>Lakshmi Prasad Dasi</small>
+            </ul>
+                </div>
+            </div>
+        </div>
+    	<div class="accordion-group">
+            <div class="accordion-heading">
+                <a href="#collapseOne" data-parent="#myAccordion" data-toggle="collapse" class="accordion-toggle">2013 Schedule</a>
+            </div>
+            <div class="accordion-body collapse" id="collapseOne">
+                <div class="accordion-inner">
+                    <ul>
               <li><a href="/june-25-2013">June 25 @ 3:30pm</a></li>
               <small>Baylor Fox-Kemper and Mike Soltys</small>
               <li><a href="/july-9-2013">July 9 @ 3:30pm</a></li>
@@ -111,8 +146,13 @@
               <li><a href="/november-12-2013">November 12 @ 3:30pm</a></li>
               <small>Daven Henze and Robert Leben</small>
               <li><a href="/december-10-2013">December 10 @ 3:30pm</a></li>
-              <small>David Kassoy and John Crimaldi</small>
+              <small>John Crimaldi and Katherine McCaffrey</small>          
             </ul>
+                </div>
+            </div>
+        </div>    
+    </div>
+</div>
 
           </div>
 
