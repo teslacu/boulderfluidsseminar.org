@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     
-      <title>Boulder Fluid and Thermal Sciences Seminar Series - March 31 2015</title>
+      <title>Boulder Fluid and Thermal Sciences Seminar Series - February 27 2018</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -42,30 +42,34 @@
       <h1 class="text-center" style="border-bottom: 2px solid #c7801f; padding-bottom:0.5em; margin-bottom: 0.5em;"><a href="/" style="color: #1e497d;">Boulder Fluid and Thermal Sciences Seminar Series</a></h1>
       <div class="row-fluid">
         <div class="span8">
-                    <h2>Tuesday, March 31, 2015</h2>
-          <p><a href="/attachments/BoulderFluidsSeminar_March31_2015.pdf"><i class="icon-download"></i> download announcement</a></p>
-          <p> 3:30pm-4:30pm (refreshments at 3:15pm) <br />
-          Bechtel Collaboratory in the Discovery Learning Center (DLC) <br />
-          University of Colorado at Boulder</p>
+                    <h2>Tuesday, February 27, 2018</h2>
+          <p><a href="/attachments/BoulderFluidThermalSeminar_February27_2018.pdf"><i class="icon-download"></i>download announcement</a></p>
+          <p> 3:30pm-4:30pm (refreshments at 3:15pm) 
+          <br />Clark Conference Room (ECAD 150)
+          <br />Engineering Center Administration Wing	
+          <br />University of Colorado at Boulder</p>
           <a href="http://boulderfluidsseminar.org" title="Add to Calendar" class="addthisevent">
             Add to Calendar
-            <span class="_start">03/31/2015 3:30:00 PM</span>
-            <span class="_end">03/31/2015 4:30:00 PM</span>
+            <span class="_start">02/27/2018 3:30:00 PM</span>
+            <span class="_end">02/27/2018 4:30:00 PM</span>
             <span class="_zonecode">9</span>
-            <span class="_summary">Boulder Fluid Dynamics Seminar Series</span>
-            <span class="_location">Discovery Learning Center, University of Colorado, Boulder</span>
+            <span class="_summary">Boulder Fluid and Thermal Sciences Seminar</span>
+            <span class="_location">Clark Conference Room (ECAD 150), University of Colorado, Boulder</span>
             <span class="_date_format">MM/DD/YYYY</span>
           </a>
 
    		 <div class="page-header"></div>
-          <h2 style="color: #1e497d;">Wavelet analysis of vortex dynamics in 3D rotating helical turbulence</h2>
-          <h3><a href="">Aimé Fournier</a> <small></small></h3>
-          <p>We introduce four novel methods to analyze joint location-scale energetics (i.e., energy, enstrophy, helicity and Lamb-vector distributions), for turbulent flows with intermediate-scale helical Beltrami forcing. Our data are direct numerical simulations on up to 1536<sup>3</sup> grid points with Reynolds numbers above 5600, with or without imposed rotation down to Rossby number 0.06. Using a classical method, we decompose the flow into orthogonal coherent and incoherent parts: the former always comprises less than 5% of the wavelets, almost all energy, and an enstrophy share depending on the vorticity distribution; the latter is noisy, much less space-filling in the helical rotating case, and very weak near the strong Beltrami coherent-vortices (BCV) formed in rotating helical flows. Two-dimensionalization is indicated by weak incoherent vertical-velocity kurtosis. Coherent parts account for almost all the energy and helicity spectra, while incoherent parts suggest equipartition in a statistical-equilibrium sense (Kraichnan 1973). The threshold defining (in)coherent partition varies strongly between experiments. Our novel methods are: 1, 4D location-scale energetics, showing extrema at all scales, at 3D locations enabling physical interpretation; 2, to identify Lamb-vector spectrum as rotational momentum transfer between phase-space atoms; 3, to sum partially that vector transfer over scale, to get a spatially localized vector flux across scales; and 4, to average azimuthally to get a radially dependent wavelet spectrum. Method 3 reveals the spatial structure of upscale vector-momentum transfers related to structures near the BCV, and method 4 quantifies increasing smoothness of BCV with decreasing distance to its core.</p>
+          <h2 style="color: #1e497d;">Autonomic Closure for Large Eddy Simulation of Turbulent Flows and Transport Processes</h2>
+          <h3><a href="https://semte.engineering.asu.edu/dahm-werner/">Werner J.A. Dahm</a> <small>Arizona State University</small></h3>
+          <p>Turbulent flows and the transport of mass, momentum, energy, and scalars within them are central to an enormous range of key applications in science and engineering, including most natural and built engineering processes, devices, and systems. All turbulent transport problems involve very wide ranges of length and time scales, which place a tremendous computational burden on direct simulations. Large eddy simulations coarse-grain the governing equations to remove intermediate and small scales, but this creates subgrid-scale terms that must be modeled to achieve a closed set of equations. This has been recognized for well over 50 years, however turbulence research has to date not provided any universal approach for modeling subgrid terms that can reliably provide a level of fidelity approaching that of direct simulation in the resolved scales.</p>
+          
+          <p>Here a new and entirely different approach [Phys. Rev. E 93, 031301(R) 2016] will be presented that completely circumvents the need for such traditional model-based closure. In "autonomic closure" subgrid terms are formulated in highly generalized representation, and a high-dimensional nonlinear nonparametric system identification problem is solved at a test scale for each point and time in the simulation to find the optimal local relation between the subgrid term and the resolved variables. Autonomic closure freely adapts to the varying nonlinear, nonlocal, nonequilibrium and other characteristics of the turbulence state throughout the simulation. Results from this new approach to turbulence closure show exceedingly accurate representation of the detailed space- and time-varying fields for momentum and energy exchange between resolved and subgrid scales.</p>
+          
+          <p>However, the computational cost of this new closure methodology exceeds that of traditional prescribed closure models.  It will be shown that there are highly efficient implementations of autonomic closure that retain essentially all of this new approach's accuracy but at computational costs that are many orders of magnitude smaller. These are efficient enough to make autonomic closure practical for use in large eddy simulations.</p>
+          
+          
+          
 
-          <div class="page-header"></div>
-          <h2 style="color: #1e497d;">Coupled level set volume of fluid method for incompressible two-phase flow</h2>
-          <h3><a href="">Meredith Purser</a> <small>University of Colorado Boulder</small></h3>
-          <p>Computational modeling of two-phase flow requires, among other things, an efficient means of tracking the interface between the phases.  For incompressible two-phase flows, there are several existing methods for tracking the interface, including the level set and volume of fluid methods, but they have significant weaknesses. The level set is a signed distance field (that is 0 at the interface, positive in one phase, and negative in the other) that is advected with the flow; because it directly tracks the interface, it readily provides curvature information and naturally handles merging interfaces, however it is not strictly volume conserving.  Conversely, the volume of fluid method is strictly volume conserving, but since it tracks the interface only indirectly, it does not readily provide curvature information or handle merging interfaces.  Coupled level set volume of fluid (CLSVOF) methods combine the level set and volume of fluid methods in such a way as to keep the advantages of each method while eliminating their weaknesses.  We are developing a CLSVOF method for parallel computing on unstructured meshes.  This talk will cover the mechanics of level set, volume of fluid, and CLSVOF methods, our early development progress for CLSVOF, and our plan for completing the development and testing the performance of our CLSVOF method.</p>
 
 
          </div> 
