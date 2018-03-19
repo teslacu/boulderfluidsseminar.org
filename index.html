@@ -42,16 +42,16 @@
       <h1 class="text-center" style="border-bottom: 2px solid #c7801f; padding-bottom:0.5em; margin-bottom: 0.5em;"><a href="/" style="color: #1e497d;">Boulder Fluid and Thermal Sciences Seminar Series</a></h1>
       <div class="row-fluid">
         <div class="span8">
-                    <h2>Friday, March 16, 2018</h2>
-         <p><a href="/attachments/BoulderFluidThermalSeminar_March16_2018.pdf"><i class="icon-download"></i>download announcement</a></p>
-          <p> 2:00pm-3:00pm (refreshments at 1:45pm) 
+                    <h2>Thursday, March 22, 2018</h2>
+          <p><a href="/attachments/BoulderFluidThermalSeminar_March22_2018.pdf"><i class="icon-download"></i>download announcement</a></p>
+          <p> 3:45pm-4:45pm (refreshments at 3:30pm) 
           <br />Clark Conference Room (ECAD 150)
           <br />Engineering Center
           <br />University of Colorado at Boulder</p>
           <a href="http://boulderfluidsseminar.org" title="Add to Calendar" class="addthisevent">
             Add to Calendar
-            <span class="_start">03/16/2018 2:00:00 PM</span>
-            <span class="_end">03/16/2018 3:00:00 PM</span>
+            <span class="_start">03/22/2018 3:45:00 PM</span>
+            <span class="_end">03/22/2018 4:45:00 PM</span>
             <span class="_zonecode">9</span>
             <span class="_summary">Boulder Fluid and Thermal Sciences Seminar</span>
             <span class="_location">Engineering Center, University of Colorado, Boulder</span>
@@ -59,9 +59,9 @@
           </a>
 
    		 <div class="page-header"></div>
-          <h2 style="color: #1e497d;">Detailed Modeling of Turbulent Fire Systems</h2>
-          <h3><a href="http://www.engr.uconn.edu/~xinyuz/">Xinyu Zhao</a> <small>University of Connecticut</small></h3>
-          <p>Fire spans a large range of temporal and spatial scales, and involves multiphysical processes. Turbulence, homogeneous and heterogeneous chemical reactions, radiative heat transfer, and multiphase transport can simultaneously be significant in fire. To maintain reasonable computational cost, reduced-order models are often required to describe these processes in order to predict the dynamics of fire. Such reduced-order models often require extension or re-formulation whenever a new aspect of the underlying physics demands attention. In this talk, our recent effort on developing high-fidelity models for the fire environment is introduced. In particular, we are concerned with the scenario of fire extinguishment where turbulence-droplet-radiation interactions are important. The solutions obtained from the high-fidelity models are leveraged to provide benchmark data for the reduced-order models or to provide closure information. Two modeling aspects are detailed in this talk, including the development of a comprehensive Monte Carlo ray tracing solver that accounts for radiative interactions between gas, soot, wall and water droplets, as well as the development of a reduced-order soot model. Finally, the numerical aspects of the underlying flow solver (OpenFOAM), as well as the effort in enabling large-scale direct numerical simulation on the multicore computing architectures (i.e., Intel Knights Landing) are briefly discussed.</p>
+          <h2 style="color: #1e497d;">Incorporating detailed chemistry in reactive-flow simulations by exploiting system stiffness and processor architecture</h2>
+          <h3><a href="http://mime.oregonstate.edu/people/kyle-niemeyer">Kyle Niemeyer</a> <small>Oregon State University</small></h3>
+          <p>Combustion simulations with finite-rate chemistry rely on accurate and efficient methods for solving stiff ordinary differential equations (ODEs). In a typical reacting-flow solver, the ODEs involving chemical kinetics at each spatial location are decoupled by operator splitting, allowing each to be solved concurrently. Efficient ODE solvers must take into account both numerical efficiency as well as the available thread and instruction-level parallelism of the underlying computational hardware being used to perform the simulations, especially on many-core coprocessors. This talk will summarize work on complementary efforts to reduce the computational expense of chemical kinetics on modern processing architectures. First, I will discuss the performance and behavior of exponential and implicit Runge-Kutta integrators implemented for graphics processing units (GPUs). Second, I will compare the performance of explicit Runge-Kutta and implicit Rosenbrock solvers implemented using both single instruction, multiple thread and single instruction, multiple data paradigms executed on multicore CPUs, Many Integrated Core, and GPU processors. Third, I will discuss efforts to intelligently select appropriate integrators based on local stiffness. I will then make overall conclusions based on a synthesis of the results, and identify remaining open questions and directions for future research. Lastly, I will discuss other ongoing research in my group.</p>
 
           
 
@@ -104,7 +104,7 @@
               <small>Kandler Smith</small>  
               <li><a href="/march-16-2018">March 16 @ 2:00pm</a></li>
               <small>Xinyu Zhao</small>  
-              <li><a href="/march-22-2018">March 22 @ 3:30pm</a></li>
+              <li><a href="/march-22-2018">March 22 @ 3:45pm</a></li>
               <small>Kyle Niemeyer</small>  
               <li><a href="/april-16-2018">April 16 @ 9:30pm</a></li>
               <small>Werner J.A. Dahm</small>  
