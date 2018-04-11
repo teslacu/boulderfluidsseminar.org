@@ -42,27 +42,28 @@
       <h1 class="text-center" style="border-bottom: 2px solid #c7801f; padding-bottom:0.5em; margin-bottom: 0.5em;"><a href="/" style="color: #1e497d;">Boulder Fluid and Thermal Sciences Seminar Series</a></h1>
       <div class="row-fluid">
         <div class="span8">
-                    <h2>Thursday, March 22, 2018</h2>
-          <p><a href="/attachments/BoulderFluidThermalSeminar_March22_2018.pdf"><i class="icon-download"></i>download announcement</a></p>
-          <p> 3:45pm-4:45pm (refreshments at 3:30pm) 
+                    <h2>Monday, April 16, 2018</h2>
+          <p><a href="/attachments/BoulderFluidThermalSeminar_April16_2018.pdf"><i class="icon-download"></i>download announcement</a></p>
+          <p> 10:00am-11:00am (refreshments at 9:45am) 
           <br />Clark Conference Room (ECAD 150)
-          <br />Engineering Center
+          <br />Engineering Center Administration Wing	
           <br />University of Colorado at Boulder</p>
           <a href="http://boulderfluidsseminar.org" title="Add to Calendar" class="addthisevent">
             Add to Calendar
-            <span class="_start">03/22/2018 3:45:00 PM</span>
-            <span class="_end">03/22/2018 4:45:00 PM</span>
+            <span class="_start">04/16/2018 10:00:00 AM</span>
+            <span class="_end">04/16/2018 11:00:00 AM</span>
             <span class="_zonecode">9</span>
             <span class="_summary">Boulder Fluid and Thermal Sciences Seminar</span>
-            <span class="_location">Engineering Center, University of Colorado, Boulder</span>
+            <span class="_location">Clark Conference Room (ECAD 150), University of Colorado, Boulder</span>
             <span class="_date_format">MM/DD/YYYY</span>
           </a>
 
    		 <div class="page-header"></div>
-          <h2 style="color: #1e497d;">Incorporating detailed chemistry in reactive-flow simulations by exploiting system stiffness and processor architecture</h2>
-          <h3><a href="http://mime.oregonstate.edu/people/kyle-niemeyer">Kyle Niemeyer</a> <small>Oregon State University</small></h3>
-          <p>Combustion simulations with finite-rate chemistry rely on accurate and efficient methods for solving stiff ordinary differential equations (ODEs). In a typical reacting-flow solver, the ODEs involving chemical kinetics at each spatial location are decoupled by operator splitting, allowing each to be solved concurrently. Efficient ODE solvers must take into account both numerical efficiency as well as the available thread and instruction-level parallelism of the underlying computational hardware being used to perform the simulations, especially on many-core coprocessors. This talk will summarize work on complementary efforts to reduce the computational expense of chemical kinetics on modern processing architectures. First, I will discuss the performance and behavior of exponential and implicit Runge-Kutta integrators implemented for graphics processing units (GPUs). Second, I will compare the performance of explicit Runge-Kutta and implicit Rosenbrock solvers implemented using both single instruction, multiple thread and single instruction, multiple data paradigms executed on multicore CPUs, Many Integrated Core, and GPU processors. Third, I will discuss efforts to intelligently select appropriate integrators based on local stiffness. I will then make overall conclusions based on a synthesis of the results, and identify remaining open questions and directions for future research. Lastly, I will discuss other ongoing research in my group.</p>
-
+          <h2 style="color: #1e497d;">Including Full Chemistry in Simulations of Turbulent Reacting Flows: Flow-Chemistry Coupling via Flamelet Libraries Based on Elemental Mixture Fractions</h2>
+          <h3><a href="https://semte.engineering.asu.edu/dahm-werner/">Werner J.A. Dahm</a> <small>Arizona State University</small></h3>
+          <p>Real turbulent reacting flows typically involve complex chemical kinetics, with dozens of chemical species undergoing hundreds of simultaneous reactions in an underlying complex turbulent flow. However this creates an unacceptable computational burden, so most such simulations are instead approximated by just a handful of chemical species undergoing a small number of reactions, even though this can greatly limit the fidelity of the simulations. To allow a more accurate approach, formal methods have been developed based on the conservation of atoms under chemical reactions that use the “elemental mixture fraction” to rigorously replace the dozens of chemical species transport equations involving hundreds of reaction terms with a single conserved scalar transport equation. For both equilibrium and non-equilibrium chemistry, this approach allows rigorously-developed “flamelet libraries” to be coupled to local values of the conserved scalar and the scalar dissipation rate from the single conserved scalar transport equation, including full chemical kinetics and even differential diffusion of chemical species. This coupling accounts for heat release effects on the flow and mixing processes as well as on transport coefficients, enabling high-fidelity simulations of complex turbulent reacting flows with full chemistry at far lower computational cost than is possible by approaches based on reduced chemistry models.</p>
+          
+          
           
 
 
@@ -106,8 +107,10 @@
               <small>Xinyu Zhao</small>  
               <li><a href="/march-22-2018">March 22 @ 3:45pm</a></li>
               <small>Kyle Niemeyer</small>  
-              <li><a href="/april-16-2018">April 16 @ 9:30pm</a></li>
-              <small>Werner J.A. Dahm</small>  
+              <li><a href="/april-16-2018">April 16 @ 10:00am</a></li>
+              <small>Werner J.A. Dahm</small>
+              <li><a href="/april-17-2018">April 17 @ 9:30am</a></li>
+              <small>Werner J.A. Dahm</small>    
             </ul>
                 </div>
             </div>
